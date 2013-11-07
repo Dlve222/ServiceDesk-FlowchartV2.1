@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cdlve222\u005cDocuments\u005cGitHub\u005cTest Twine\u005cTestTwine.html
+VC:\u005cUsers\u005cdlve222\u005cDocuments\u005cGitHub\u005cServiceDesk-FlowchartV2.1\u005cServiceDesk-FlowChartV2.1.html
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\dlve222\\Documents\\GitHub\\ServiceDesk-FlowchartV2.0\\TestTwine.tws'
+S'C:\\Users\\dlve222\\Documents\\GitHub\\ServiceDesk-FlowchartV2.1\\ServiceDesk-FlowChartV2.1.tws'
 p4
 sS'target'
 p5
@@ -34,7 +34,7 @@ p16
 (dp17
 S'text'
 p18
-V<html>\u000a<p>Welcome to the APAT Service Desk Flow Chart. This tool will help you with answering phone calls, emails, or working on service now tickets.</p>\u000a\u000a<p><narrative>When you see this font and color you read aloud</narrative></p>\u000a<p><interm>When you see this font and color you read to yourself</interm>\u000a\u000a<p><interm>What Queue will you be working from?</interm></p>\u000a</html>\u000a[[Phone Call Queue|Phone]]\u000a[[Email Queue|Email]]\u000a[[Service Now Queue|Service Now Ticket]]\u000a\u000a\u000a
+V<html>\u000a<p>Welcome to the APAT Service Desk Flow Chart. This tool will help you with answering phone calls, emails, or working on service now tickets.</p>\u000a<p><narrative>When you see this font and color you read aloud</narrative></p>\u000a<p><interm>When you see this font and color you read to yourself</interm>\u000a<hr>\u000a<p>So lets begin!!!</p>\u000a<p><interm>What Queue will I be working from?</interm></p>\u000a</html>\u000a[[Phone Call Queue|Phone]]\u000a[[Email Queue|Email]]\u000a[[Service Now Queue|Service Now Ticket]]\u000a\u000a\u000a
 p19
 sS'title'
 p20
@@ -106,8 +106,8 @@ g12
 I00
 sg13
 (lp43
-F430.0
-aF10.0
+F10.0
+aF430.0
 asg15
 (itiddlywiki
 Tiddler
@@ -150,8 +150,8 @@ g12
 I00
 sg13
 (lp60
-F150.0
-aF10.0
+F10.0
+aF150.0
 asg15
 (itiddlywiki
 Tiddler
@@ -189,7 +189,7 @@ p74
 g71
 sbsa(dp75
 g12
-I00
+I01
 sg13
 (lp76
 F710.0
@@ -200,7 +200,7 @@ Tiddler
 p77
 (dp78
 g63
-V<html>\u000a\u000a<p><interm>Confirm what the customer issue is.</interm></p>\u000a</html>\u000a[[Account]]\u000a[[eLearning]]\u000a[[Messaging Systems]]\u000a[[Voice and Data]]\u000a[[Software]]
+V<html>\u000a\u000a<p><interm>Confirm what the callers issue is.</interm></p>\u000a<hr>\u000a<p>is the user having an issue with</p>\u000a</html>\u000a[[Account]]\u000a[[eLearning]]\u000a[[Messaging Systems]]\u000a[[Voice and Data]]\u000a[[Software]]
 p79
 sg65
 VUnderstand
@@ -458,7 +458,7 @@ Tiddler
 p153
 (dp154
 g63
-V<html>\u000a<p><narrative>This is (fill in you name here), How may i help you.</narrative></p>\u000a<p><interm>Do you understand the customers request/issue?</interm></p>\u000a</html>\u000a[[Yes|Understand]]\u000a[[No|Don't Understand]]\u000a\u000a
+V<html>\u000a<p><narrative>This is (fill in you name here), How may i help you.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<p>Acknowledge the users reply</p>\u000a<hr>\u000a<p><interm>Do you understand the customers reply?</interm></p>\u000a</html>\u000a[[Yes|Understand]]\u000a[[No|Don't Understand]]\u000a\u000a
 p155
 sg65
 VPhone
@@ -1031,8 +1031,8 @@ g12
 I00
 sg13
 (lp317
-F290.0
-aF10.0
+F10.0
+aF290.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1072,8 +1072,8 @@ g12
 I00
 sg13
 (lp332
-F10.0
-aF150.0
+F9.9999999999999929
+aF570.0
 asg15
 (itiddlywiki
 Tiddler
@@ -1125,7 +1125,7 @@ p350
 (dp351
 S'text'
 p352
-V<html>\u000a<p><narrative>Are you having a problem with</narrative>\u000a</html>\u000a[[Software Downloads]]
+V<html>\u000a<p><narrative>Are you having a problem with a sofware download or install</narrative>\u000a</html>\u000a\u000a[[Software Downloads]]\u000a[[Software Install]]
 p353
 sS'tags'
 p354
@@ -1223,7 +1223,7 @@ Rp382
 sg361
 g382
 sg362
-VSoftware installation
+VSoftware Install
 p383
 sbsa(dp384
 g12
